@@ -1,0 +1,91 @@
+.big-box {
+    border-bottom: 1px solid gray;
+    
+}
+
+.card {
+    margin: auto;
+}
+
+#logo {
+    width: 103px;
+    text-align: center;
+}
+
+label {
+    font-size: small;
+}
+
+#forgot-password {
+    color: blue;
+    text-decoration: none;
+    float: right;
+    font-size: small;
+    
+}
+
+#need-help {
+    color: blue;
+}
+
+.under-box {
+    padding: 0% 1%;
+    margin: auto;
+}
+
+hr {
+    display: inline-block;
+    width: 100%;
+}
+
+.line-text-grid {
+    text-align: center;
+}
+
+#new {
+    display: inline-block;
+    font-size: small;
+    
+}
+
+#grid-stuff {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#continue-button {
+    background-color: rgb(255, 208, 0);
+    border: 1px solid gray;
+    color: black;
+    transition-duration: 2s;
+}
+
+#create-button {
+    background-color: lightgray;
+    border: 1px solid gray;
+    color: black;
+    transition-duration: 0.5s;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: blue;
+}
+
+#continue-button:hover, #create-button:hover {
+    opacity: 0.75;
+    transition-duration: 1s;
+}
+
+.footer {
+    text-align: center;
+
+}
+
+.footer-links {
+    font-size: x-small;
+    margin: 0% 0.5%;
+
+    
+}
